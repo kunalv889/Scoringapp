@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText7"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="89dp"
+            android:text="BATSMAN(ON STRIKE) NAME" />
+
+        <EditText
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText8"
+            android:layout_below="@+id/editText7"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:text="BATSMAN(NON STRIKE)NAME" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText9"
+            android:text="BOWLER NAME"
+            android:layout_below="@+id/editText8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="58dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START MATCH"
+            android:id="@+id/button2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="79dp" />
+
+    </RelativeLayout>
+</LinearLayout>

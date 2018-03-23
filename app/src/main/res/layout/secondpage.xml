@@ -14,7 +14,7 @@
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="89dp"
-            android:text="BATSMAN(ON STRIKE) NAME" />
+            android:hint="BATSMAN(ON STRIKE) NAME" />
 
         <EditText
             android:layout_width="220dp"
@@ -23,16 +23,16 @@
             android:layout_below="@+id/editText7"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="46dp"
-            android:text="BATSMAN(NON STRIKE)NAME" />
+            android:hint="BATSMAN(NON STRIKE)NAME" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="220dp"
             android:layout_height="wrap_content"
             android:id="@+id/editText9"
-            android:text="BOWLER NAME"
             android:layout_below="@+id/editText8"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="58dp" />
+            android:layout_marginTop="58dp"
+            android:hint="BOWLER NAME" />
 
         <Button
             android:layout_width="wrap_content"

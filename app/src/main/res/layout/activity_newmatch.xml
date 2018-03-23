@@ -13,31 +13,32 @@
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:id="@+id/editText"
-        android:text="TOURNAMENT"
         android:textAlignment="center"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:hint="Tournament" />
 
     <EditText
         android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:id="@+id/editText2"
         android:layout_marginTop="27dp"
-        android:text="BATTING FIRST TEAM NAME"
         android:layout_below="@+id/editText"
         android:layout_alignLeft="@+id/editText"
         android:layout_alignStart="@+id/editText"
         android:textAlignment="center"
-        android:textSize="14dp" />
+        android:textSize="14dp"
+        android:hint="BATTING FIRST TEAM NAME" />
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:id="@+id/editText3"
         android:layout_below="@+id/editText2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:text="BOWLING TEAM NAME" />
+        android:textAlignment="center"
+        android:hint="BOWLING TEAM NAME" />
 
     <EditText
         android:layout_width="220dp"
@@ -45,8 +46,8 @@
         android:id="@+id/editText4"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:text="TOSSS WON BY"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:hint="TOSSS WON BY" />
 
     <EditText
         android:layout_width="220dp"
@@ -55,8 +56,8 @@
         android:layout_below="@+id/editText4"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
-        android:text="VENUE"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:hint="VENUE" />
 
     <EditText
         android:layout_width="220dp"
@@ -65,8 +66,8 @@
         android:layout_below="@+id/editText5"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="25dp"
-        android:text="OVERS"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:hint="OVERS" />
 
     <Button
         android:layout_width="250dp"

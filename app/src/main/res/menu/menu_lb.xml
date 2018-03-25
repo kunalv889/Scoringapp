@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item1" android:title="1lb"/>
+    <item android:id="@+id/item2" android:title="2lb"/>
+    <item android:id="@+id/item3" android:title="3lb"/>
+    <item android:id="@+id/item4" android:title="4lb"/>
+    <item android:id="@+id/item5" android:title="5lb"/>
+    <item android:id="@+id/item6" android:title="6lb"/>
+    <item android:id="@+id/item7" android:title="7lb"/>
+    <item android:id="@+id/item8" android:title="lb+wkt"/>
+
+
+</menu>
